@@ -1,6 +1,6 @@
 //! Authentication protocol support.
 use md5::{Digest, Md5};
-use sm3::sm3;
+use sm3::Sm3;
 
 pub mod sasl;
 

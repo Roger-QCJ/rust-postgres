@@ -1,6 +1,6 @@
 [package]
 name = "postgres-protocol-sm3"
-version = "0.6.6a"
+version = "0.6.6-1"
 authors = ["RogerQiu <rogerqiu@163.com>"]
 edition = "2018"
 description = "Low level Postgres protocol APIs with sm3"

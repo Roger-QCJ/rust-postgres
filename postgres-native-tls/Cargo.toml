@@ -13,13 +13,13 @@ circle-ci = { repository = "sfackler/rust-postgres" }
 
 [features]
 default = ["runtime"]
-runtime = ["tokio-postgres/runtime"]
+runtime = ["tokio-postgres-sm3/runtime"]
 
 [dependencies]
 native-tls = "0.2"
 tokio = "1.0"
 tokio-native-tls = "0.3"
-tokio-postgres = { version = "0.7.0", path = "../tokio-postgres", default-features = false }
+tokio-postgres-sm3 = { version = "0.7.0", path = "../tokio-postgres", default-features = false }
 
 [dev-dependencies]
 futures-util = "0.3"
